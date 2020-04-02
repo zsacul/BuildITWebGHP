@@ -4,12 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | BuildITWeb</title>
-    <script src="Build/UnityLoader.js"></script>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/56b27af957420c10aef972428bfcf1ed.js"></script>
     <script>
-      UnityLoader.instantiate("unityContainer", "Build/BuildITWeb.json");
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/22c5bc672413465d8525a7a069c83779.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
-    <div id="unityContainer" style="width: 960px; height: 600px; margin: auto"></div>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">BuildITWeb</div>
+      </div>
+    </div>
   </body>
 </html>
