@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "BuildITWeb",
+"productVersion": "0.1",
+"dataUrl": "de0d07e8c945ca011c5cf8f4bde32b98.unityweb",
+"wasmCodeUrl": "8af98960fd7fba7d63a704ab46c4783a.unityweb",
+"wasmFrameworkUrl": "d0238e12edeacfd2e44985a1edbfc8d6.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#828080",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.4f1"
+}
