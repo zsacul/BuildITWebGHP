@@ -1,2 +1,2 @@
-# BuildITWebGHP
-Github pages play test
+#ZostanWDomuRobGry gamejam entry:
+https://zsacul.github.io/BuildITWebGHP/
